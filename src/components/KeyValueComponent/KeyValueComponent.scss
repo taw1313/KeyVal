@@ -1,0 +1,111 @@
+@import 'src/assets/styles/base/baseExport';
+
+.keyvalueComponent {
+  height: 100%;
+  width: 100%;
+  color: $white;
+  font-size: 16px;
+  background: $gray;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 0 35px;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+
+  footer {
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+  }
+
+  p {
+   padding: 15px;
+  }
+
+  input {
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+}
+
+.overflowTable {
+  min-height: 20%;
+  max-height: 77%;
+  overflow: auto;
+
+  table {
+    background: $gray;
+    border-spacing: 15px;
+    border-collapse: separate;
+    width: 100%;
+  }
+}
+
+.keyvalueCell {
+  background: $white;
+  color: $lightgray;
+  text-align: left;
+  width: 45%;
+  border-radius: 5px;
+  padding: 0 25px;  
+  cursor: pointer;
+}
+
+.removeCell {
+  background: $red;
+  color: $white;
+  text-align: center;
+  width: 5%;
+  border-radius: 5px;
+  padding: 0 25px;  
+  cursor: pointer;
+}
+
+.removeCell:active {
+  background: $activered;
+  transform: translateY(4px);
+}
+
+.headerCell {
+    background: $gray;
+    text-align: left;
+    width: 40%;
+    color: $lightgray;
+    padding: 0 25px;
+}
+
+.headerButtonCell {
+    background: $white;
+    border-radius: 5px;
+    text-align: center;
+    color: $black;
+    width: 27px;
+    height: 27px;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submitButton {
+      background: $blue;
+      border-radius: 5px;
+      width: 100%;
+      color: $lightgray;
+      border: 0;
+      font-size: 16px;
+      padding: 5px 0;
+      cursor: pointer;
+}
+
+.submitButton:active {
+  background: $activeblue;
+  transform: translateY(4px);
+}

@@ -1,0 +1,12 @@
+@import 'src/assets/styles/base/baseExport';
+
+.home {
+  height: 100vh;
+  width: 100vw;
+	display: flex;
+	flex-direction: column;
+  flex: 1;
+  align-items: center;
+  background-color: $darkgray;
+  overflow: hidden;
+}
